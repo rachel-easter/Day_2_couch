@@ -1,4 +1,3 @@
-// blog-posts.component.ts
 import { Component, OnInit } from '@angular/core';
 import { BlogPostsService } from '../blog-posts.service';
 
