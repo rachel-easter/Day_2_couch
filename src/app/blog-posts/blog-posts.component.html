@@ -1,0 +1,9 @@
+<!-- blog-posts.component.html -->
+<h2>Blog Posts</h2>
+<div *ngFor="let post of posts">
+  <div>
+    <h3>{{ post.title || 'Untitled Post' }}</h3>
+    <p>{{ post.content || 'No content available' }}</p>
+    <p>Post ID: {{ post._id }}</p>
+  </div>
+</div>
