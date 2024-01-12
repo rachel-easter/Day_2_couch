@@ -1,4 +1,3 @@
-// blog-posts.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -13,7 +12,7 @@ interface ResponseType {
 })
 export class BlogPostsService {
   private baseUrl = 'http://localhost:5984/sample';
-  private credentials = 'admin:admin'; // replace with your actual credentials
+  private credentials = 'admin:admin'; 
 
   constructor(private http: HttpClient) {}
 
